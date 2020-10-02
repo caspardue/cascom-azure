@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T21:14:27.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="LfDKl7L17PM4iOXbijI5" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-02T00:20:39.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="1bDbuaKwpAp70RrxZYju" version="13.7.7" type="github">
   <diagram id="N9xTuEbasyiph1gLEigy" name="Page-1">
     <mxGraphModel dx="1366" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,16 +17,16 @@
           <mxGeometry width="160" height="80" as="geometry" />
         </mxCell>
         <object label="" id="CRxGR41QNWdmwfeqIi2d-9">
-          <mxCell style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CRxGR41QNWdmwfeqIi2d-1" target="CRxGR41QNWdmwfeqIi2d-11" edge="1">
+          <mxCell style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;fontStyle=0;verticalAlign=top;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="130" y="80" as="sourcePoint" />
-              <mxPoint x="250" y="80" as="targetPoint" />
+              <mxPoint x="200" y="79.5" as="sourcePoint" />
+              <mxPoint x="360" y="79.5" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-10" value="Form model" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];" parent="CRxGR41QNWdmwfeqIi2d-9" vertex="1" connectable="0">
+        <mxCell id="CRxGR41QNWdmwfeqIi2d-10" value="Form model&lt;br&gt;- Fields&lt;br&gt;&lt;div style=&quot;&quot;&gt;- Validation rules&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];" parent="CRxGR41QNWdmwfeqIi2d-9" vertex="1" connectable="0">
           <mxGeometry x="0.3871" y="4" relative="1" as="geometry">
-            <mxPoint x="-57" y="4" as="offset" />
+            <mxPoint x="-71" y="4.5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CRxGR41QNWdmwfeqIi2d-11" value="Application (dfds.com)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -35,11 +35,8 @@
         <mxCell id="CRxGR41QNWdmwfeqIi2d-12" value="Form Backend" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacingLeft=-35;" parent="1" vertex="1">
           <mxGeometry x="40" y="200" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-17" value="Public API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=0;fontFamily=Helvetica;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="CRxGR41QNWdmwfeqIi2d-17" value="Public API&lt;br&gt;BFF" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=0;fontFamily=Helvetica;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="160" y="200" width="40" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-18" value="Internal API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=0;fontFamily=Helvetica;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="160" y="280" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CRxGR41QNWdmwfeqIi2d-19" value="Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="70" y="370" width="70" height="90" as="geometry" />
@@ -50,15 +47,15 @@
             <mxPoint x="118" y="202" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-21" value="Form model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" parent="CRxGR41QNWdmwfeqIi2d-20" vertex="1" connectable="0">
+        <mxCell id="CRxGR41QNWdmwfeqIi2d-21" value="Form model&lt;br&gt;- Fields&lt;br&gt;- Validation rules&lt;br&gt;&lt;div&gt;- Meta data&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" parent="CRxGR41QNWdmwfeqIi2d-20" vertex="1" connectable="0">
           <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
-            <mxPoint x="0.5700000000000003" y="11" as="offset" />
+            <mxPoint x="9" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-23" value="" style="endArrow=classic;html=1;shadow=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="CRxGR41QNWdmwfeqIi2d-11" target="CRxGR41QNWdmwfeqIi2d-17" edge="1">
+        <mxCell id="CRxGR41QNWdmwfeqIi2d-23" value="" style="endArrow=classic;html=1;shadow=0;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CRxGR41QNWdmwfeqIi2d-11" target="CRxGR41QNWdmwfeqIi2d-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="200" as="sourcePoint" />
-            <mxPoint x="310" y="150" as="targetPoint" />
+            <mxPoint x="300" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CRxGR41QNWdmwfeqIi2d-24" value="Form reply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" parent="CRxGR41QNWdmwfeqIi2d-23" vertex="1" connectable="0">
@@ -69,10 +66,10 @@
         <mxCell id="CRxGR41QNWdmwfeqIi2d-26" value="Form Subscriber" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="360" y="280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-27" value="" style="endArrow=classic;html=1;shadow=0;fontFamily=Helvetica;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CRxGR41QNWdmwfeqIi2d-26" target="CRxGR41QNWdmwfeqIi2d-18" edge="1">
+        <mxCell id="CRxGR41QNWdmwfeqIi2d-27" value="" style="endArrow=classic;html=1;shadow=0;fontFamily=Helvetica;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CRxGR41QNWdmwfeqIi2d-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="290" as="sourcePoint" />
-            <mxPoint x="190" y="290" as="targetPoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CRxGR41QNWdmwfeqIi2d-28" value="Registriation/Subscription" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Helvetica;" parent="CRxGR41QNWdmwfeqIi2d-27" vertex="1" connectable="0">
@@ -80,15 +77,15 @@
             <mxPoint x="49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CRxGR41QNWdmwfeqIi2d-32" value="" style="endArrow=classic;html=1;shadow=0;fontFamily=Helvetica;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="CRxGR41QNWdmwfeqIi2d-18" target="CRxGR41QNWdmwfeqIi2d-26" edge="1">
+        <mxCell id="CRxGR41QNWdmwfeqIi2d-32" value="" style="endArrow=classic;html=1;shadow=0;fontFamily=Helvetica;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="CRxGR41QNWdmwfeqIi2d-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="190" as="sourcePoint" />
+            <mxPoint x="200" y="340" as="sourcePoint" />
             <mxPoint x="310" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CRxGR41QNWdmwfeqIi2d-33" value="Form reply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" parent="CRxGR41QNWdmwfeqIi2d-32" vertex="1" connectable="0">
           <mxGeometry x="-0.7425" y="-1" relative="1" as="geometry">
-            <mxPoint x="59" y="9" as="offset" />
+            <mxPoint x="59" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
